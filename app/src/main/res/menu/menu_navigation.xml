@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/mainGroup"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/d2d"
+
+            android:title="Home Testing" />
+        <item
+            android:id="@+id/map"
+
+            android:title="Show Map"/>
+        <item
+            android:id="@+id/nav_bookedAppointment"
+
+            android:title="vaccination centres"/>
+        <item
+            android:id="@+id/nav_login"
+
+            android:title="Login (or Register)"/>
+        <item
+            android:id="@+id/nav_logout"
+
+            android:title="Log Out"/>
+
+
+    </group>
+
+    <group
+        android:id="@+id/helpGroop"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/lab"
+            android:title="Lab Test"/>
+
+
+    </group>
+</menu>
